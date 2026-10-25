@@ -11,7 +11,8 @@ Move Epic Games Launcher installs between drives, and repair a library that a ha
 **[TabsExplode](https://github.com/badjuice/TabsExplode)** · JavaScript  
 Bookmark every open tab in one click, keeping tab groups as folders. For Chromium and Firefox.
 
-**[url2pdf](https://github.com/badjuice/url2pdf)** · Python
+**[url2pdf](https://github.com/badjuice/url2pdf)** · Python  
+Python script that saves a list of web pages as PDF files, rendered in Chromium through Playwright.
 
 [badjuice.github.io](https://badjuice.github.io/)
 
