@@ -21,19 +21,4 @@
 <rect x="451.2" y="160" width="78.6" height="28" rx="14" fill="#22231f" stroke="#363731"/>
 <circle cx="466.2" cy="174" r="4.5" fill="#3572a5"/>
 <text x="476.2" y="178.5" font-size="13" fill="#c9c5b8">Python</text>
-<g transform="translate(715 112) rotate(-14)">
-<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
-<text x="-24" y="-28" font-size="15" font-weight="700" fill="#2a2b27">♠</text>
-<text x="0" y="12" font-size="30" text-anchor="middle" fill="#2a2b27">♠</text>
-</g>
-<g transform="translate(765 105) rotate(0)">
-<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
-<text x="-24" y="-28" font-size="15" font-weight="700" fill="#c0605a">♥</text>
-<text x="0" y="12" font-size="30" text-anchor="middle" fill="#c0605a">♥</text>
-</g>
-<g transform="translate(815 112) rotate(14)">
-<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
-<text x="-24" y="-28" font-size="15" font-weight="700" fill="#2a2b27">♣</text>
-<text x="0" y="12" font-size="30" text-anchor="middle" fill="#2a2b27">♣</text>
-</g>
 </svg>

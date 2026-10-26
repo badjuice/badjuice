@@ -9,11 +9,7 @@ const LOGIN = 'badjuice';
 const NAME = 'Nox Fortes';
 const TAGLINE = 'Small tools for problems I keep running into, and a card game.';
 // Same text as the portfolio (badjuice.github.io, js/profile.js).
-const BIO =
-  'I build small tools for problems I keep running into: moving Epic Games installs between drives, ' +
-  'bookmarking every open tab at once, turning web pages into PDFs. Lately also a card game you can play ' +
-  'in the browser. Mostly C#, PowerShell, JavaScript, TypeScript and Python. I wanted to write something ' +
-  'more meaningful here, but I think there is a character lim';
+const BIO = 'I bring things to life through code...';
 // The big card at the top, with a button to the game.
 const FEATURED = { repo: 'tximtxom', title: 'TximTxom', play: 'https://badjuice.github.io/tximtxom/' };
 // Shown first, in this order. The rest follow, newest activity first.
@@ -92,10 +88,7 @@ function header(t) {
 <text x="74" y="64" font-size="15" letter-spacing="1.5" fill="${t.sub}">HI, I'M</text>
 <text x="46" y="106" font-size="40" font-weight="700" letter-spacing="-0.5" fill="${t.main}">${NAME}</text>
 <text x="48" y="138" font-size="16" fill="${t.text}"><tspan fill="${t.accent}" font-weight="600">@${LOGIN}</tspan><tspan fill="${t.sub}">  ·  </tspan>${esc(TAGLINE)}</text>
-${chips}
-${playingCard(t, 715, 112, -14, '♠', false)}
-${playingCard(t, 765, 105, 0, '♥', true)}
-${playingCard(t, 815, 112, 14, '♣', false)}`,
+${chips}`,
   );
 }
 

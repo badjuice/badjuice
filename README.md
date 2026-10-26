@@ -1,6 +1,6 @@
 <a href="https://badjuice.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header.svg" width="100%" alt="Nox Fortes (badjuice): Small tools for problems I keep running into, and a card game."></picture></a>
 
-I build small tools for problems I keep running into: moving Epic Games installs between drives, bookmarking every open tab at once, turning web pages into PDFs. Lately also a card game you can play in the browser. Mostly C#, PowerShell, JavaScript, TypeScript and Python. I wanted to write something more meaningful here, but I think there is a character lim
+I bring things to life through code...
 
 <a href="https://github.com/badjuice/tximtxom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-dark.svg"><img src="assets/featured.svg" width="100%" alt="TximTxom: Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest."></picture></a>
 
