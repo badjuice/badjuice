@@ -1,7 +1,5 @@
 <a href="https://badjuice.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header.svg" width="100%" alt="Nox Fortes (badjuice): I bring things to life through code..."></picture></a>
 
-Little tools for my own problems, and lately a card game. I wanted to write more here, but I think there's a character lim
-
 <a href="https://github.com/badjuice/tximtxom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-dark.svg"><img src="assets/featured.svg" width="100%" alt="TximTxom: Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest."></picture></a>
 
 <p>

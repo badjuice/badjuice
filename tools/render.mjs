@@ -8,8 +8,6 @@ import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 const LOGIN = 'badjuice';
 const NAME = 'Nox Fortes';
 const TAGLINE = 'I bring things to life through code...';
-// Same text as the portfolio (badjuice.github.io, js/profile.js).
-const BIO = "Little tools for my own problems, and lately a card game. I wanted to write more here, but I think there's a character lim";
 // The big card at the top, with a button to the game.
 const FEATURED = { repo: 'tximtxom', title: 'TximTxom', play: 'https://badjuice.github.io/tximtxom/' };
 // Shown first, in this order. The rest follow, newest activity first.
@@ -209,8 +207,6 @@ const featuredBlock = top
 writeFileSync(
   new URL('README.md', root),
   `<a href="https://${LOGIN}.github.io/">${pic('header', `${NAME} (${LOGIN}): ${TAGLINE}`, 'width="100%"')}</a>
-
-${BIO}
 
 ${featuredBlock}### Projects
 
