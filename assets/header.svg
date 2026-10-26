@@ -5,7 +5,7 @@
 <circle cx="56" cy="58" r="6" fill="#7fa480"/>
 <text x="74" y="64" font-size="15" letter-spacing="1.5" fill="#99947f">HI, I'M</text>
 <text x="46" y="106" font-size="40" font-weight="700" letter-spacing="-0.5" fill="#080909">Nox Fortes</text>
-<text x="48" y="138" font-size="16" fill="#3b3a33"><tspan fill="#7fa480" font-weight="600">@badjuice</tspan><tspan fill="#99947f">  ·  </tspan>Small tools for problems I keep running into, and a card game.</text>
+<text x="48" y="138" font-size="16" fill="#3b3a33"><tspan fill="#7fa480" font-weight="600">@badjuice</tspan><tspan fill="#99947f">  ·  </tspan>I bring things to life through code...</text>
 <rect x="48" y="160" width="50.2" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
 <circle cx="63" cy="174" r="4.5" fill="#178600"/>
 <text x="73" y="178.5" font-size="13" fill="#3b3a33">C#</text>
