@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-label="TximTxom: Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest.">
+<title>TximTxom: Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest.</title>
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="899" height="229" rx="16" fill="#22231f" stroke="#363731"/>
+<rect x="36" y="30" width="148" height="24" rx="12" fill="#7fa480"/>
+<text x="110" y="46.5" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#080909">PLAY IN BROWSER</text>
+<text x="36" y="88" font-size="30" font-weight="700" letter-spacing="-0.3" fill="#eeebe2">TximTxom</text>
+<text x="36" y="122" font-size="16" fill="#c9c5b8">Online card game for 2 to 4 players: group your 7 cards into</text>
+<text x="36" y="145" font-size="16" fill="#c9c5b8">sets and same-suit straights, and keep your leftover points</text>
+<text x="36" y="168" font-size="16" fill="#c9c5b8">lowest.</text>
+<circle cx="41" cy="197.5" r="5" fill="#3178c6"/>
+<text x="52" y="202" font-size="13" fill="#8a8572">TypeScript</text>
+<text x="142" y="202" font-size="13" fill="#8a8572">★ 1</text>
+<text x="188" y="202" font-size="13" fill="#8a8572">updated Oct 2026</text>
+<g transform="translate(650 125) rotate(-18)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#c0605a">♦</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#c0605a">♦</text>
+</g>
+<g transform="translate(705 112) rotate(-6)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#2a2b27">♠</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#2a2b27">♠</text>
+</g>
+<g transform="translate(760 112) rotate(6)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#c0605a">♥</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#c0605a">♥</text>
+</g>
+<g transform="translate(815 125) rotate(18)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#363731"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#2a2b27">♣</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#2a2b27">♣</text>
+</g>
+</svg>

@@ -1,19 +1,27 @@
-<img src="assets/header.svg" width="900" alt="Nox Fortes (badjuice)">
+<a href="https://badjuice.github.io/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"><img src="assets/header.svg" width="100%" alt="Nox Fortes (badjuice): Small tools for problems I keep running into, and a card game."></picture></a>
 
 I build small tools for problems I keep running into: moving Epic Games installs between drives, bookmarking every open tab at once, turning web pages into PDFs. Lately also a card game you can play in the browser. Mostly C#, PowerShell, JavaScript, TypeScript and Python. I wanted to write something more meaningful here, but I think there is a character lim
 
-**[tximtxom](https://github.com/badjuice/tximtxom)** · TypeScript · [play](https://badjuice.github.io/tximtxom/)  
-Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest.
+<a href="https://github.com/badjuice/tximtxom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/featured-dark.svg"><img src="assets/featured.svg" width="100%" alt="TximTxom: Online card game for 2 to 4 players: group your 7 cards into sets and same-suit straights, and keep your leftover points lowest."></picture></a>
 
-**[EpicLibraryToolExplode](https://github.com/badjuice/EpicLibraryToolExplode)** · PowerShell  
-Move Epic Games Launcher installs between drives, and repair a library that a half-finished move left broken. PowerShell TUI and module, journalled moves, GUID-based recovery.
+<p>
+  <a href="https://badjuice.github.io/tximtxom/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/play-dark.svg"><img src="assets/play.svg" height="44" alt="Play TximTxom"></picture></a>&nbsp;
+  <a href="https://github.com/badjuice/tximtxom"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/source-dark.svg"><img src="assets/source.svg" height="44" alt="TximTxom source code"></picture></a>
+</p>
 
-**[TabsExplode](https://github.com/badjuice/TabsExplode)** · JavaScript  
-Bookmark every open tab in one click, keeping tab groups as folders. For Chromium and Firefox.
+### Projects
 
-**[url2pdf](https://github.com/badjuice/url2pdf)** · Python  
-Python script that saves a list of web pages as PDF files, rendered in Chromium through Playwright.
+<p>
+  <a href="https://github.com/badjuice/EpicLibraryToolExplode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-EpicLibraryToolExplode-dark.svg"><img src="assets/card-EpicLibraryToolExplode.svg" width="49%" alt="EpicLibraryToolExplode: Move Epic Games Launcher installs between drives, and repair a library that a half-finished move left broken. PowerShell TUI and module, journalled moves, GUID-based recovery."></picture></a> <a href="https://github.com/badjuice/TabsExplode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-TabsExplode-dark.svg"><img src="assets/card-TabsExplode.svg" width="49%" alt="TabsExplode: Bookmark every open tab in one click, keeping tab groups as folders. For Chromium and Firefox."></picture></a><br>
+  <a href="https://github.com/badjuice/url2pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-url2pdf-dark.svg"><img src="assets/card-url2pdf.svg" width="49%" alt="url2pdf: Python script that saves a list of web pages as PDF files, rendered in Chromium through Playwright."></picture></a> <a href="https://github.com/badjuice/sketchplanations-reader"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-sketchplanations-reader-dark.svg"><img src="assets/card-sketchplanations-reader.svg" width="49%" alt="sketchplanations-reader: Unofficial offline-first Android reader for Sketchplanations"></picture></a><br>
+  <a href="https://github.com/badjuice/SketchplanationsExplode"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-SketchplanationsExplode-dark.svg"><img src="assets/card-SketchplanationsExplode.svg" width="49%" alt="SketchplanationsExplode: Kotlin client for sketchplanations.com content and its podcast feed"></picture></a> <a href="https://github.com/badjuice/ocelot-demo"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-ocelot-demo-dark.svg"><img src="assets/card-ocelot-demo.svg" width="49%" alt="ocelot-demo: An Ocelot API Gateway demo"></picture></a><br>
+  <a href="https://github.com/badjuice/elsa-document-management"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-elsa-document-management-dark.svg"><img src="assets/card-elsa-document-management.svg" width="49%" alt="elsa-document-management: Guide project to introduce building workflow driven .NET applications using Elsa 2"></picture></a> <a href="https://github.com/badjuice/fsck_you"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-fsck_you-dark.svg"><img src="assets/card-fsck_you.svg" width="49%" alt="fsck_you: Make your Linux system faster with this program!"></picture></a>
+</p>
 
-[badjuice.github.io](https://badjuice.github.io/)
+<p align="center">
+  <a href="https://badjuice.github.io/">badjuice.github.io</a> ·
+  <a href="https://badjuice.github.io/tximtxom/">play TximTxom</a> ·
+  <a href="https://github.com/badjuice?tab=repositories">all repositories</a>
+</p>
 
 <!-- Generated by tools/render.mjs. Edit that file, not this one. -->

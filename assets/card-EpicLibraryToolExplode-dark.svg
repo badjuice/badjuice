@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="180" viewBox="0 0 440 180" role="img" aria-label="EpicLibraryToolExplode: Move Epic Games Launcher installs between drives, and repair a library that a half-finished move left broken. PowerShell TUI and module, journalled moves, GUID-based recovery.">
+<title>EpicLibraryToolExplode: Move Epic Games Launcher installs between drives, and repair a library that a half-finished move left broken. PowerShell TUI and module, journalled moves, GUID-based recovery.</title>
+<style>text{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}</style>
+<rect x="0.5" y="0.5" width="439" height="179" rx="14" fill="#22231f" stroke="#363731"/>
+<path d="M24 22 h28" stroke="#7fa480" stroke-width="3" stroke-linecap="round"/>
+<text x="24" y="52" font-size="19" font-weight="700" fill="#eeebe2">EpicLibraryToolExplode</text>
+<text x="416" y="52" font-size="15" text-anchor="end" fill="#8a8572">↗</text>
+<text x="24" y="78" font-size="14" fill="#c9c5b8">Move Epic Games Launcher installs between drives, and</text>
+<text x="24" y="99" font-size="14" fill="#c9c5b8">repair a library that a half-finished move left broken.</text>
+<text x="24" y="120" font-size="14" fill="#c9c5b8">PowerShell TUI and module, journalled moves,…</text>
+<circle cx="29" cy="153.5" r="5" fill="#4f8fd8"/>
+<text x="40" y="158" font-size="13" fill="#8a8572">PowerShell</text>
+<text x="130" y="158" font-size="13" fill="#8a8572">★ 1</text>
+<text x="176" y="158" font-size="13" fill="#8a8572">updated Aug 2026</text>
+</svg>

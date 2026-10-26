@@ -1,8 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="120" viewBox="0 0 900 120" role="img" aria-label="Nox Fortes (badjuice)">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-label="Nox Fortes (badjuice)">
 <title>Nox Fortes (badjuice)</title>
 <style>text{font-family:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}</style>
-<rect width="900" height="120" rx="12" fill="#eeebe2"/>
-<circle cx="48" cy="60" r="7" fill="#7fa480"/>
-<text x="72" y="58" font-size="30" font-weight="600" fill="#080909">Nox Fortes</text>
-<text x="72" y="84" font-size="17" fill="#99947f">badjuice</text>
+<rect x="0.5" y="0.5" width="899" height="219" rx="16" fill="#eeebe2" stroke="#d3cfc1"/>
+<circle cx="56" cy="58" r="6" fill="#7fa480"/>
+<text x="74" y="64" font-size="15" letter-spacing="1.5" fill="#99947f">HI, I'M</text>
+<text x="46" y="106" font-size="40" font-weight="700" letter-spacing="-0.5" fill="#080909">Nox Fortes</text>
+<text x="48" y="138" font-size="16" fill="#3b3a33"><tspan fill="#7fa480" font-weight="600">@badjuice</tspan><tspan fill="#99947f">  ·  </tspan>Small tools for problems I keep running into, and a card game.</text>
+<rect x="48" y="160" width="50.2" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
+<circle cx="63" cy="174" r="4.5" fill="#178600"/>
+<text x="73" y="178.5" font-size="13" fill="#3b3a33">C#</text>
+<rect x="106.2" y="160" width="107" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
+<circle cx="121.2" cy="174" r="4.5" fill="#4f8fd8"/>
+<text x="131.2" y="178.5" font-size="13" fill="#3b3a33">PowerShell</text>
+<rect x="221.2" y="160" width="107" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
+<circle cx="236.2" cy="174" r="4.5" fill="#3178c6"/>
+<text x="246.2" y="178.5" font-size="13" fill="#3b3a33">TypeScript</text>
+<rect x="336.2" y="160" width="107" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
+<circle cx="351.2" cy="174" r="4.5" fill="#f1e05a"/>
+<text x="361.2" y="178.5" font-size="13" fill="#3b3a33">JavaScript</text>
+<rect x="451.2" y="160" width="78.6" height="28" rx="14" fill="#f7f5ef" stroke="#d3cfc1"/>
+<circle cx="466.2" cy="174" r="4.5" fill="#3572a5"/>
+<text x="476.2" y="178.5" font-size="13" fill="#3b3a33">Python</text>
+<g transform="translate(715 112) rotate(-14)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#d3cfc1"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#080909">♠</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#080909">♠</text>
+</g>
+<g transform="translate(765 105) rotate(0)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#d3cfc1"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#c0605a">♥</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#c0605a">♥</text>
+</g>
+<g transform="translate(815 112) rotate(14)">
+<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="#d3cfc1"/>
+<text x="-24" y="-28" font-size="15" font-weight="700" fill="#080909">♣</text>
+<text x="0" y="12" font-size="30" text-anchor="middle" fill="#080909">♣</text>
+</g>
 </svg>
