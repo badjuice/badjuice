@@ -3,7 +3,7 @@
 // GitHub data. Run daily by .github/workflows/refresh.yml.
 //
 //   node tools/render.mjs        (set GITHUB_TOKEN to avoid API rate limits)
-import { mkdirSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 
 const LOGIN = 'badjuice';
 const NAME = 'Nox Fortes';
@@ -24,6 +24,10 @@ const LANG = { TypeScript: '#3178c6', JavaScript: '#f1e05a', PowerShell: '#4f8fd
 const FONT = "system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif";
 
 const root = new URL('..', import.meta.url);
+// The game's logo (its favicon, scaled up 3x), shown on the featured card.
+const LOGO = `data:image/png;base64,${readFileSync(new URL('tximtxom-logo.png', import.meta.url)).toString('base64')}`;
+// The repo description ends with the game's link, which the card's own button already gives.
+const blurb = (repo) => (repo.description ?? '').replace(/\s*Can be played here:.*$/, '');
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const month = (iso) => new Date(iso).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 
@@ -51,16 +55,6 @@ const svg = (w, h, label, body) => `<svg xmlns="http://www.w3.org/2000/svg" widt
 ${body}
 </svg>
 `;
-
-/** A playing card, for the decorations. */
-const playingCard = (t, x, y, rot, suit, red) => {
-  const ink = red ? '#c0605a' : t.main === '#080909' ? '#080909' : '#2a2b27';
-  return `<g transform="translate(${x} ${y}) rotate(${rot})">
-<rect x="-34" y="-48" width="68" height="96" rx="8" fill="#fbfaf6" stroke="${t.line}"/>
-<text x="-24" y="-28" font-size="15" font-weight="700" fill="${ink}">${suit}</text>
-<text x="0" y="12" font-size="30" text-anchor="middle" fill="${ink}">${suit}</text>
-</g>`;
-};
 
 function header(t) {
   const W = 900;
@@ -125,23 +119,20 @@ ${footer(t, repo, 24, H - 22)}`,
 function featured(t, repo) {
   const W = 900;
   const H = 230;
-  const desc = wrap(repo.description || '', 64, 3)
+  const desc = wrap(blurb(repo), 64, 3)
     .map((l, i) => `<text x="36" y="${122 + i * 23}" font-size="16" fill="${t.text}">${esc(l)}</text>`)
     .join('\n');
   return svg(
     W,
     H,
-    `${FEATURED.title}: ${repo.description ?? ''}`,
+    `${FEATURED.title}: ${blurb(repo)}`,
     `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="16" fill="${t.card}" stroke="${t.line}"/>
 <rect x="36" y="30" width="148" height="24" rx="12" fill="${t.accent}"/>
 <text x="110" y="46.5" font-size="12" font-weight="700" letter-spacing="1" text-anchor="middle" fill="${t.onAccent}">PLAY IN BROWSER</text>
 <text x="36" y="88" font-size="30" font-weight="700" letter-spacing="-0.3" fill="${t.main}">${FEATURED.title}</text>
 ${desc}
 ${footer(t, repo, 36, H - 28)}
-${playingCard(t, 650, 125, -18, '♦', true)}
-${playingCard(t, 705, 112, -6, '♠', false)}
-${playingCard(t, 760, 112, 6, '♥', true)}
-${playingCard(t, 815, 125, 18, '♣', false)}`,
+<image href="${LOGO}" x="676" y="31" width="168" height="168" image-rendering="pixelated" style="image-rendering:pixelated"/>`,
   );
 }
 
@@ -194,7 +185,7 @@ const rows = [];
 for (let i = 0; i < grid.length; i += 2) rows.push(grid.slice(i, i + 2).join(' '));
 
 const featuredBlock = top
-  ? `<a href="${top.html_url}">${pic('featured', `${FEATURED.title}: ${top.description ?? ''}`, 'width="100%"')}</a>
+  ? `<a href="${top.html_url}">${pic('featured', `${FEATURED.title}: ${blurb(top)}`, 'width="100%"')}</a>
 
 <p>
   <a href="${FEATURED.play}">${pic('play', `Play ${FEATURED.title}`, 'height="44"')}</a>&nbsp;
